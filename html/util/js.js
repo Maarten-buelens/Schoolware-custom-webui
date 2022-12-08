@@ -19,7 +19,7 @@ var html = document.getElementById(id);
 var full_id = html.textContent;
 var params = 'id=' + full_id + '&klaar=' + klaar;
 //var params = 'id=' + full_id + ',klaar='+ klaar;
-const url='https://data.mb-server.com';
+const url='{public url}/done';
 
 http.open('POST', url, true);
 
